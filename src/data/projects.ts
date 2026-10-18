@@ -57,6 +57,23 @@ export const projects: Project[] = [
       { src: "/projects/tokenomics.png", alt: "Nexora tokenomics page showing a 40/30/30 allocation" },
     ],
   },
+
+    {
+    slug: "nft-marketplace-frontend",
+    kind: "frontend",
+    title: "Lumina NFT Marketplace",
+    description:
+      "A Web3 NFT marketplace frontend supporting ERC-721 and ERC-1155 trading, fixed-price listings and English auctions. Includes NFT discovery, creator royalties, secure withdrawals and owner-controlled marketplace management on Ethereum Sepolia.",
+    stack: ["React", "TypeScript", "Wagmi", "Viem", "CSS"],
+    github: "https://github.com/Jo-joVictor/marketplace-website",
+    live: "https://marketplace-website-pi.vercel.app/",
+    tint: "#2f2a3d",
+    images: [
+      { src: "/projects/marketplace-explore.png", alt: "Lumina explore page with featured fixed-price listings and a live auction" },
+      { src: "/projects/marketplace-listing.png", alt: "Lumina listing page for an English auction with bid details" },
+    ],
+  },
+
   {
     slug: "token-launch-contracts",
     kind: "contract",
